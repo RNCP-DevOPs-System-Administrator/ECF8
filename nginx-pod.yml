@@ -1,0 +1,12 @@
+apiVersion: v1 # version of the Kubernetes API 
+kind: Pod # type of Kubernetes object to create (smallest deployable unit in Kubernetes)
+metadata:
+  name: nginx-pod
+  labels:
+    app: nginx # specific label applied to this Pod
+spec:
+  containers: # A Pod can run one or more containers
+  - name: nginx
+    image: nginx # Docker image
+    ports:
+    - containerPort: 80 # nginx container inside the Pod will listen for connections on port 80
