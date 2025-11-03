@@ -1,6 +1,24 @@
-***INSTALLER VAGRANT ET METTRE EN PLACE UN CLUSTER KUBERNETES AVEC LE FICHIER d'installation vagrantfile***
-***METTRE EN PLACE UN SCALING DE VOTRE APPLICATION NGINX***
+# RNCP DevOps System Administrator
+<ins>**Evaluation en cours de Formation ECF8**</ins>
 
+#  🛡️ Automatiser la mise en production d’une application - Cluster KUBERNETES
+
+## Mise en place KUBERNETES avec VAGRANT
+
+### Pré-Requis
+- Vagrant : Version: 2.4.7
+- VirtualBox : Version 7.1.10 platform packages
+- Ubuntu/bionic64 : Ubuntu 20.04 64-bit operating system (chargé dans le vagrantfile)
+
+### Création VAGRANTFILE (création de 2 VMs)
+- master node
+- worker node
+
+### Initialisation KUBERNETES
+- Création script kubernetes_install.sh
+- Utilisation réseau FLANNEL
+
+## MISE EN PLACE UN SCALING APPLICATION NGINX***
 1.	Mettre en place un pod Nginx
 2.	Créer un service nodeport tcp avec redirection sur le port 80 (8080:80)
 	Vérifier que votre service a bien été créé avec la commande : kubectl get svc
