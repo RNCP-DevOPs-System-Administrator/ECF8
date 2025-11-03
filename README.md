@@ -18,7 +18,7 @@
 - Création script kubernetes_install.sh
 - Utilisation réseau FLANNEL
 
-## ✅ MISE EN PLACE UN SCALING APPLICATION NGINX***
+## ✅ MISE EN PLACE SCALING APPLICATION NGINX***
 1. Mettre en place un pod Nginx
 2. Créer un service nodeport tcp avec redirection sur le port 80 (8080:80)
    Vérifier que votre service a bien été créé avec la commande : kubectl get svc
